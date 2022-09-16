@@ -178,11 +178,6 @@ function Header() {
 							Movie{movieMatch && <Circle layoutId="circle" />}
 						</Link>
 					</Item>
-					<Item>
-						<Link to="favorites">
-							Favorites {favoritesMatch && <Circle layoutId="circle" />}
-						</Link>
-					</Item>
 				</Items>
 			</Col>
 			<Col>
